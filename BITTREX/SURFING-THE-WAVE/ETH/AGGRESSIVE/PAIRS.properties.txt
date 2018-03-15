@@ -7,7 +7,7 @@
 ###################################################################
 
 MARKET = aldo228
-
+MARKET2 = 2aldo228
 #If you turn on trading the bot will try to sell ANY coin you already own
 ALL_trading_enabled = TRUE
 ALL_enabled_pairs = ALL
