@@ -6,12 +6,12 @@
 ###################################################################
 ###################################################################
 
-max_cost = 0.01
-max_buy_times = 5
+max_cost = 8.01
+max_buy_times = 8
 
 buy_strategy = LOWBB
-buy_value = 0
-buy_trigger = -5
+buy_value = 8
+buy_trigger = -8
 trailing_buy = 0.1
 
 sell_strategy = GAIN
