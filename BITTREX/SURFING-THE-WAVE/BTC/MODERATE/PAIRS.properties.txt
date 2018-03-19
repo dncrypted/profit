@@ -1,51 +1,53 @@
-##################  PAIRS.properties ##############################
-################### VERSION CONTROL ###############################
-###################################################################
-### Read the wiki for more explanations about the properties    ###
-### https://wiki.profittrailer.com                              ###
-###################################################################
-###################################################################
+#####  DNC SETTINGS SURFING THE WAVE MODERATE #####
 
-MARKET = aldo22
-
-#If you turn on trading the bot will try to sell ANY coin you already own
+MARKET = BTC
 ALL_trading_enabled = false
-ALL_enabled_pairs = ALL
 
-ALL_max_cost = 0.00128
-ALL_min_buy_balance = 08
-ALL_min_buy_volume = 5008
-ALL_min_buy_price = 08
-ALL_max_trading_pairs = 158
-ALL_max_buy_spread = 18
 
-ALL_buy_strategy = LOWBB
-ALL_buy_value = 5
-ALL_trailing_buy = 0.1
+### CONSTANTS ###
+BTC-XEM_trading_enabled = true
+BTC-ETH_trading_enabled = true
+BTC-LTC_trading_enabled = true
+BTC-XRP_trading_enabled = true
+BTC-TRX_trading_enabled = true
+BTC-XMR_trading_enabled = true
+BTC-NEO_trading_enabled = true
+BTC-ADA_trading_enabled = true
+BTC-XLM_trading_enabled = true
 
-ALL_sell_strategy = GAIN
-ALL_sell_value = 1
-ALL_trailing_profit = 0.5
-
-All_stop_loss_trigger = 0
-ALL_stop_loss_timeout = 0
-ALL_panic_sell_enabled = false
-
-ALL_DCA_enabled = false
-
+##### SAFETY #####
 ALL_sell_only_mode = false
+All_stop_loss_trigger = 0
 
-ALL_btc_price_drop_trigger = 0
-ALL_btc_price_drop_recover_trigger = 0
+##### BANKROLL MANAGER #####
 
-ALL_btc_price_rise_trigger = 0
-ALL_btc_price_rise_recover_trigger = 0
+ALL_max_cost = 15
 
-#Does not work on binance
-ALL_consecutive_buy_trigger = 0
 
-#Does not work on binance
-ALL_consecutive_sell_trigger = 0
+ALL_min_buy_balance = 0
+ALL_max_trading_pairs = 4
 
-ALL_pending_order_wait_time = 0
-ALL_combined_cancel_pending_trigger = 0
+
+### DCA ###
+ALL_DCA_Enabled = -1
+
+
+### BUY SETTINGS ###
+All_buy_strategy = EMAGAIN
+ALL_buy_value = -0.01
+ALL_trailing_buy = 0.001
+
+
+### SELL ###
+ALL_sell_strategy = GAIN
+ALL_sell_value = 0.9
+ALL_trailing_profit = 0.3
+
+
+### BUY QUALITY MANAGER ###
+ALL_min_buy_volume = 0
+ALL_min_buy_price = 0 
+ALL_max_buy_spread = 0
+
+### USE WITH BRAIN ###
+ALL_panic_sell_enabled = false

@@ -1,28 +1,37 @@
-##################  DCA.properties ################################
-################### VERSION CONTROL ###############################
-###################################################################
-### Read the wiki for more explanations about the properties    ###
-### https://wiki.profittrailer.com                              ###
-###################################################################
-###################################################################
+### DNC DCA SURFING THE WAVE CONSERVATIVE ###
 
-max_cost = 0.01
-max_buy_times = 5
-
-buy_strategy = LOWBB
-buy_value = 0
-buy_trigger = -5
-trailing_buy = 0.1
-
-sell_strategy = GAIN
-sell_value = 1
-sell_trigger = 1
-trailing_profit = 0.5
-stop_loss_trigger = 0
-
-buy_available_volume_trigger = 125
-ignore_sell_only_mode = false
-max_buy_spread = 0
+### BANKROLL MANAGER ###
+enabled = true
+max_cost = 0
+max_buy_times = 9
 min_buy_balance = 0
 
+### SAFETY ###
+max_buy_spread = 0
+stop_loss_trigger = 0
 pending_order_wait_time = 0
+ignore_sell_only_mode = true
+
+
+buy_strategy = ANDERSON
+buy_style = DOUBLEDOWN
+
+
+### BUY ###
+buy_trigger_1 = -1
+buy_trigger_2 = -1
+buy_trigger_3 = -2
+buy_trigger_4 = -3
+buy_trigger_5 = -5
+buy_trigger_6 = -8
+buy_trigger_7 = -13
+buy_trigger_8 = -21
+buy_trigger_9 = -34
+
+trailing_buy = 0.001
+
+
+### SELL ###
+sell_strategy = GAIN
+sell_value = 1.2
+trailing_profit = 0.4
