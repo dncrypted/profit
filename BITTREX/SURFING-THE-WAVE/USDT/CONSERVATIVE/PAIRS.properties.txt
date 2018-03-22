@@ -5,11 +5,12 @@ ALL_trading_enabled = false
 
 
 ### CONSTANTS ###
-BTCUSDT_trading_enabled = true
-ETHUSDT_trading_enabled = true
-LTCUSDT_trading_enabled = true
-NEOUSDT_trading_enabled = true
-BCCUSDT_trading_enabled = true
+USDT-BTC_trading_enabled = true
+USDT-ETH_trading_enabled = true
+USDT-LTC_trading_enabled = true
+USDT-NEO_trading_enabled = true
+USDT-BCC_trading_enabled = true
+USDT-EOS_trading_enabled = true
 
 ##### SAFETY #####
 ALL_sell_only_mode = false

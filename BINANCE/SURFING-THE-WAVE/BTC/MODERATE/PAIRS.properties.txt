@@ -20,7 +20,7 @@ All_stop_loss_trigger = 0
 
 ##### BANKROLL MANAGER #####
 
-ALL_max_cost = 15
+ALL_max_cost = 0.0015
 
 
 ALL_min_buy_balance = 0
