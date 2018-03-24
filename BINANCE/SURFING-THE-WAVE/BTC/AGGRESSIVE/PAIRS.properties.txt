@@ -13,6 +13,9 @@ XMRBTC_trading_enabled = true
 BCCBTC_trading_enabled = true
 TRXBTC_trading_enabled = true
 NANOBTC_trading_enabled = true
+NCASHBTC_trading_enabled = true
+AIONBTC_trading_enabled = true
+GVTBTC_trading_enabled = true
 
 
 ##### SAFETY #####
