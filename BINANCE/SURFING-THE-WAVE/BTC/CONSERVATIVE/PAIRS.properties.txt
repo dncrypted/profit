@@ -13,6 +13,11 @@ XMRBTC_trading_enabled = true
 BCCBTC_trading_enabled = true
 TRXBTC_trading_enabled = true
 NANOBTC_trading_enabled = true
+NCASHBTC_trading_enabled = true
+AIONBTC_trading_enabled = true
+GVTBTC_trading_enabled = true
+VENBTC_trading_enabled = true
+ADABTC_trading_enabled = true
 
 ##### SAFETY #####
 ALL_sell_only_mode = false
@@ -20,7 +25,7 @@ All_stop_loss_trigger = 0
 
 ##### BANKROLL MANAGER #####
 
-ALL_max_cost = 0.001
+ALL_max_cost = 0.0012
 
 
 ALL_min_buy_balance = 0
