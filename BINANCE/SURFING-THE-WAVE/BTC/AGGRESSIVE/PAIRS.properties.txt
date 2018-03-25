@@ -16,6 +16,8 @@ NANOBTC_trading_enabled = true
 NCASHBTC_trading_enabled = true
 AIONBTC_trading_enabled = true
 GVTBTC_trading_enabled = true
+VENBTC_trading_enabled = true
+ADABTC_trading_enabled = true
 
 
 ##### SAFETY #####
