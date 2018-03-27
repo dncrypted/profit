@@ -13,6 +13,12 @@ XRPETH_trading_enabled = true
 TRXETH_trading_enabled = true
 ADAETH_trading_enabled = true
 XLMETH_trading_enabled = true
+VENETH_trading_enabled = true
+AIONETH_trading_enabled = true
+NCASHETH_trading_enabled = true
+EOSETH_trading_enabled = true
+GVTETH_trading_enabled = true
+ADAETH_trading_enabled = true
 
 ##### SAFETY #####
 ALL_sell_only_mode = false
