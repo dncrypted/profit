@@ -18,6 +18,7 @@ AIONETH_trading_enabled = true
 NCASHETH_trading_enabled = true
 EOSETH_trading_enabled = true
 GVTETH_trading_enabled = true
+ADAETH_trading_enabled = true
 
 
 ##### SAFETY #####
