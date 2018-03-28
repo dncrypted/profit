@@ -1,0 +1,52 @@
+#####  DNC SETTINGS SAFE AS GRANDMA v.01 AGGRESSIVE #####
+
+MARKET = BTC
+ALL_trading_enabled = false
+
+
+##### THE PAIRS #####
+BTC-LTC_trading_enabled = true
+BTC-TRX_trading_enabled = true
+BTC-BCC_trading_enabled = true
+BTC-XRP_trading_enabled = true
+BTC-NEO_trading_enabled = true
+BTC-ADA_trading_enabled = true
+
+
+##### SAFETY #####
+ALL_sell_only_mode = false
+All_stop_loss_trigger = 0 
+
+
+##### BANKROLL MANAGER #####
+ALL_max_cost_percentage = 0.5
+ALL_min_buy_balance = 0
+ALL_max_trading_pairs = 3
+
+
+
+##### DCA #####
+ALL_DCA_Enabled = -0.2
+
+
+##### BUY SETTINGS #####
+ALL_buy_strategy = EMACROSS
+ALL_buy_value = 0.02
+ALL_trailing_buy = 0.01
+EMA_cross_candles = 3
+
+
+##### SELL SETTINGS #####
+ALL_sell_strategy = GAIN
+ALL_sell_value = 4.0
+ALL_trailing_profit = 0.5
+
+
+### BUY QUALITY MANAGER ###
+ALL_min_buy_volume = 0
+ALL_min_buy_price = 0 
+ALL_max_buy_spread = 0
+
+
+### USE WITH BRAIN ###
+ALL_panic_sell_enabled = false 
