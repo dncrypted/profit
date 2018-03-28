@@ -1,3 +1,0 @@
-DCA.properties.txt
-PAIRS.properties.txt
-INDICATORS.properties.txt
